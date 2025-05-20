@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Top destinations to travel in Europe during May.">
+    <title>May in Europe - Travel Guide</title>
+</head>
+<body>
+    <h1>Best Places to Visit in Europe in May</h1>
+
+    <p>May is one of the best months to travel in Europe: the weather is warm but not too hot, spring flowers are blooming, and major cities are not yet crowded by summer tourists.</p>
+
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Lisbon">Lisbon, Portugal</a> – Sunny days and ocean views</li>
+        <li><a href="https://en.wikipedia.org/wiki/Budapest">Budapest, Hungary</a> – Thermal baths and riverside charm</li>
+        <li><a href="https://en.wikipedia.org/wiki/Santorini">Santorini, Greece</a> – Stunning sunsets and blue domes</li>
+    </ul>
+
+    <div>
+        <h2>Why May is a Great Month</h2>
+        <p><span>Mild weather</span>, spring festivals, and affordable prices make May ideal for exploring Europe without the summer crowds. 🌿</p>
+    </div>
+
+    <h2>Book Your May Trip</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="destination">Pick your favorite destination:</label>
+        <select id="destination" name="destination">
+            <option value="lisbon">Lisbon</option>
+            <option value="budapest">Budapest</option>
+            <option value="santorini">Santorini</option>
+        </select><br><br>
+
+        <label>
+            <input type="checkbox" name="newsletter"> Subscribe to travel updates
+        </label><br><br>
+
+        <label>
+            <input type="radio" name="traveltype" value="solo"> Solo Traveler
+        </label>
+        <label>
+            <input type="radio" name="traveltype" value="group"> Group Tour
+        </label><br><br>
+
+        <input type="submit" value="Plan My Trip">
+    </form>
+
+    <h2>Comparison Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Country</th>
+                <th>Main Attraction</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lisbon</td>
+                <td>Portugal</td>
+                <td>Alfama & Tram 28</td>
+            </tr>
+            <tr>
+                <td>Budapest</td>
+                <td>Hungary</td>
+                <td>Thermal Spas</td>
+            </tr>
+            <tr>
+                <td>Santorini</td>
+                <td>Greece</td>
+                <td>Sunsets & Caldera Views</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
